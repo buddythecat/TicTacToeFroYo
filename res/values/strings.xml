@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TicTacToeActivity!</string>
+    <string name="app_name">TicTacToe</string>
+    <string name="x_val">X</string>
+    <string name="o_val">O</string>
+    <string name="clear_val"> </string>
+    <string name="status">Begin Play</string>
+    <string name="p1">Player 1</string>
+    <string name="p2">Player 2</string>
+</resources>

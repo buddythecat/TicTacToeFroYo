@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 	
+	The layout of the main screen will be a linear layout to contain the main frame
+	 Followed by a TableLayout which will contain the Matrix for the Tiles
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TableLayout android:id="@+id/tile_board"
+		android:orientation="vertical"
+		android:layout_width="@dimen/board_size"
+		android:layout_height="@dimen/board_size" 
+		android:layout_gravity="center"
+		android:layout_marginTop="40dp">
+		<TableRow>
+			<Button android:id="@+id/b00"
+				android:layout_width="@dimen/tile_size"
+				android:layout_height="@dimen/tile_size"/>
+			<Button android:id="@+id/b10"
+				android:layout_width="@dimen/tile_size"
+				android:layout_height="@dimen/tile_size"/>
+			<Button android:id="@+id/b20"
+				android:layout_width="@dimen/tile_size"
+				android:layout_height="@dimen/tile_size"/>
+		</TableRow>
+		<TableRow>
+			<Button android:id="@+id/b01"
+				android:layout_width="@dimen/tile_size"
+				android:layout_height="@dimen/tile_size"/>
+			<Button android:id="@+id/b11"
+				android:layout_width="@dimen/tile_size"
+				android:layout_height="@dimen/tile_size"/>
+			<Button android:id="@+id/b21"
+				android:layout_width="@dimen/tile_size"
+				android:layout_height="@dimen/tile_size"/>
+		</TableRow>
+		<TableRow>
+			<Button android:id="@+id/b02"
+				android:layout_width="@dimen/tile_size"
+				android:layout_height="@dimen/tile_size"/>
+			<Button android:id="@+id/b12"
+				android:layout_width="@dimen/tile_size"
+				android:layout_height="@dimen/tile_size"/>
+			<Button android:id="@+id/b22"
+				android:layout_width="@dimen/tile_size"
+				android:layout_height="@dimen/tile_size"/>
+		</TableRow>
+	</TableLayout>
+	<TextView android:id="@+id/tStatus"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/status" />
+	<Button android:id="@+id/bAgain"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:text="Play Again"  />
+</LinearLayout>
