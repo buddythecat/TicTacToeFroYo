@@ -1,0 +1,11 @@
+=============================================================
+TicTacToe for FroYo - A simple TicTacToe game for Android 2.2
+  Rich "Dances With Caterpillars" Tufano
+=============================================================
+	- This is a very simple version of TicTacToe, written
+with the basic fundamentals of the Android System.  It 
+demonstrates simple event binding for Views, and the basic 
+structure for layout files.
+	All of the game logic is located within the class
+com.ncc.edu.tictactoe.TicTacToeActivity, while the layout
+and values are defined in their respective XML Files
